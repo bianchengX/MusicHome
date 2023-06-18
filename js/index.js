@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3|恭喜|找到满意工作|预祝|拥有开心离职游|');
+      S.UI.simulate('|#countdown 3|恭喜你|找到|满意工作|拥有|开心假期|');
     }
 
     S.Drawing.loop(function () {
